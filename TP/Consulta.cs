@@ -44,9 +44,7 @@ namespace TP
             }
 
         }
-        public override string ToString()
-        {
-
+        public override string ToString() {
             return "    " + ID_Paciente.ToString() + " - " + this.ID.ToString() + " - " + this.Prioridade + " - " +this.Preço +" - "+ this.Data.ToString("d");
         }
     }
